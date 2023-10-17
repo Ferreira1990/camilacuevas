@@ -48,6 +48,8 @@ header {
 
 .navlist a:hover {
   color: rgb(244, 54, 121);
+  transition: all 1s;
+
 }
 
 #menu-icon {
@@ -92,6 +94,7 @@ section {
 .home-text p {
   color: rgb(255, 135, 155);
   font-size: 16px;
+  text-shadow: 1px 1px black;
   text-transform: capitalize;
   max-width: 360px;
   line-height: 1.5;
@@ -100,14 +103,15 @@ section {
 
 .home-btn {
   display: inline-block;
-  color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 18px;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   border: 1px solid white;
   padding: 10px 20px;
-  background-color: white;
+  background-color: transparent;
   transition: 0.42s;
 }
 
